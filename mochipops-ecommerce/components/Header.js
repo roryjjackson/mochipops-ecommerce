@@ -6,19 +6,22 @@ const Header = () => {
  return (
     <nav className={styles.navbar}>
        <Link href="/">
-          <a>
-             <div className={styles.logo}>
-                <p>
-                   PLANTS <span className={styles.logo_span}>☘</span>
-                </p>
-             </div>
-          </a>
+
+          <div className={styles.logo}>
+             <p>
+                PLANTS <span className={styles.logo_span}>☘</span>
+             </p>
+          </div>
+
        </Link>
-       <div className={styles.nav_price}>
+       <nav className="navbar container">
+
+        <div className="nav-price snipcart-checkout">
           <span>🛒</span>
-          <p>$0.00</p>
-       </div>
-    </nav>
+          <p className="snipcart-total-price">$0.00</p>
+        </div>
+      </nav>
+  </nav>
  );
 };
 
