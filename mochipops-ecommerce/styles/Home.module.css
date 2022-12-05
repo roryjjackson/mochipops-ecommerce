@@ -1,129 +1,100 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+	margin: 50px 0;
+	font-weight: bold;
+	font-size: 45px;
 }
 
-.title,
-.description {
+.slogan {
+  /* opacity: .5; */
+  padding: 50px 0;
   text-align: center;
+  height: 600px;
+  /* background-size: 20; */
+  background-repeat: no-repeat;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+
+.products_container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+  height: 600px;
+  background-color: #FF6978;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+@media (max-width: 500px) {
+	.products_container {
+		grid-template-columns: 1fr;
+	}
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.product_card {
+	padding: 20px;
+  margin: 100px;
+  background-color: #FF6978;
+  color: #fff;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.product_content {
+  margin: 20px 0;
+}
+.product_content h3 {
+  margin: 10px 0;
+}
+.product_content p {
+  margin: 10px 0;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.product_img {
+  width: 100%;
+  overflow: hidden;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.product_img img {
+	background-color: #fff;
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	cursor: pointer;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  overflow: hidden;
 }
 
-.card p {
+.product_img img:hover {
+  -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.product_content h3 {
+	margin: 5px 0;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../public/images/pexels-mochi2.jpg');
+
+}
+
+.banner h2 {
   margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 250px;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.about_container {
+  background-color: #F1F4E9;
+  height: 500px;
 }

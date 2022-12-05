@@ -1,5 +1,4 @@
 import Head from 'next/head';
-// import Image from 'next/image'
 import styles from '../../styles/SingleProduct.module.css';
 
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';

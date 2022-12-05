@@ -1,27 +1,37 @@
 // components/Header.js
-
+import Image from 'next/image'
 import Link from 'next/link';
 import styles from '../styles/components/Header.module.css';
 const Header = () => {
  return (
-    <nav className={styles.navbar}>
-       <Link href="/">
+    <div className={styles.navbar}>
+      <nav className={styles.navbar}>
+        <Link href="/" legacyBehavior>
 
-          <div className={styles.logo}>
-             <p>
-                PLANTS <span className={styles.logo_span}>☘</span>
-             </p>
+            <div className={styles.logo}>
+              <Image
+                src="/../public/images/IMG_1776.PNG"
+                alt=""
+                width={200}
+                height={200}
+                />
+            </div>
+
+        </Link>
+            {/* <nav>
+              <a href="/html/" className={styles.navbar_item}>About</a>
+              <a href="/css/" className={styles.navbar_item}>Our product</a>
+              <a href="/js/" className={styles.navbar_item}>Contact</a>
+              <a href="/python/" className={styles.navbar_item}>Taste</a>
+              </nav> */}
+        <nav className={styles.navbar_container}>
+          <div className="nav-price snipcart-checkout">
+            <span>🛒</span>
+            <p className="snipcart-total-price">$0.00</p>
           </div>
-
-       </Link>
-       <nav className="navbar container">
-
-        <div className="nav-price snipcart-checkout">
-          <span>🛒</span>
-          <p className="snipcart-total-price">$0.00</p>
-        </div>
-      </nav>
-  </nav>
+        </nav>
+     </nav>
+   </div>
  );
 };
 
