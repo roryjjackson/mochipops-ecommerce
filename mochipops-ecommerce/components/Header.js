@@ -16,7 +16,6 @@ const Header = () => {
                 height={200}
                 />
             </div>
-
         </Link>
             {/* <nav>
               <a href="/html/" className={styles.navbar_item}>About</a>
@@ -25,6 +24,10 @@ const Header = () => {
               <a href="/python/" className={styles.navbar_item}>Taste</a>
               </nav> */}
         <nav className={styles.navbar_container}>
+          <Link href="/" className={styles.nav_price}>Contact</Link>
+          <Link href="#about_container" className={styles.nav_price}>About us</Link>
+          <Link href="/" className={styles.nav_price}>Follow</Link>
+          <Link href="/" className={styles.nav_price}>Products</Link>
           <div className="nav-price snipcart-checkout">
             <span>🛒</span>
             <p className="snipcart-total-price">$0.00</p>
