@@ -3,11 +3,13 @@
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #5aa388;
+	background-color: #243E36;
 	color: #fff;
-	padding: 20px 250px;
+	padding: 0 50px;
 	font-size: 20px;
 	font-weight: 600;
+  /* background-image: url('../../public/images/mochi.png');
+  background-repeat: no-repeat; */
 }
 
 @media (max-width: 500px) {
@@ -29,4 +31,8 @@
 	display: flex;
 	align-items: center;
 	gap: 5px;
+}
+
+.navbar_item {
+  padding: 0px 30px;
 }
