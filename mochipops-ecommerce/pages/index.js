@@ -20,6 +20,13 @@ export default function Home({ allProducts }) {
                   <div className={styles.product_card} key={product.id}>
                       <Link href={`products/${product.slug}`}>
                           <div className={styles.product_img}>
+                          {/* <Image
+                            className={styles.avatar}
+                            src="product.image.url"
+                            alt="product.name"
+                            height={250}
+                            width={250}
+                          /> */}
                             <img src={product.image.url} alt={product.name} />
                           </div>
                       </Link>
