@@ -10,7 +10,7 @@ function BootstrapCarousel() {
           src="/../public/images/pexels-mochi2.jpg"
           alt="First slide"
           width={200}
-          height={200}
+          height={500}
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -23,7 +23,7 @@ function BootstrapCarousel() {
           src="/../public/images/pexels-mochi2.jpg"
           alt="Second slide"
           width={200}
-          height={200}
+          height={500}
         />
 
         <Carousel.Caption>
@@ -37,7 +37,7 @@ function BootstrapCarousel() {
           src="/../public/images/pexels-mochi2.jpg"
           alt="Third slide"
           width={200}
-          height={200}
+          height={500}
         />
 
         <Carousel.Caption>

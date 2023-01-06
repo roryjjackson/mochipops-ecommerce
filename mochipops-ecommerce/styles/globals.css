@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Roboto:wght@100;300;400;500&family=Space+Grotesk:wght@400;600&display=swap');
 
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+} */
 
 
 body {
@@ -18,14 +18,16 @@ a {
 	color: #fff;
 }
 
-.container {
-	/* padding: 0 250px; */
-
+.main-container {
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 
 @media (max-width: 500px) {
 	.container {
-		padding: 0 50px;
+	  margin: 0;
+	  padding: 0;
 	}
 }
 
