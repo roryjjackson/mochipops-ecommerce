@@ -4,9 +4,8 @@
 	font-size: 45px;
 }
 
-.carousel-container {
+.carousel_container {
   background-color: #243E36;
-  margin: 100px;
 }
 
 .banner {
@@ -38,7 +37,7 @@
 }
 
 .products {
-  background-color: #FF6978;
+  background-color: #F1F4E9;
   height: 100vh;
   background-image: url("../public/images/mochi.png");
   background-repeat: no-repeat;
@@ -46,7 +45,7 @@
 
 .product_title {
   font-size: 65px;
-  color: white;
+  color: #243E36;
   padding: 120px 120px 0 120px;
 }
 
@@ -66,7 +65,7 @@
 	padding: 20px;
   margin: 100px;
   /* background-color: #FF6978; */
-  color: #fff;
+  color: #243E36;
 }
 
 .product_content {

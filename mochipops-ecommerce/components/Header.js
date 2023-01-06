@@ -24,8 +24,8 @@ const Header = () => {
           <Image
             src="/../public/images/IMG_1776.PNG"
             alt=""
-            width={600}
-            height={250}
+            width={300}
+            height={120}
           />
         </div>
       </Link>
