@@ -9,32 +9,22 @@
 }
 
 .banner {
-  background-size: cover;
-  background-position: center;
-	background-color: #243E36;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #243E36;
 }
 
-.banner h2 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 25px;
-  text-align: center;
-}
 
 .slogan {
-  padding: 50px 0;
+  font-size: 16px;
   text-align: center;
-}
+  width: 300px;
+  height: 50px;
+  background-color:#FF6978;
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);}
 
 .products {
   background-color: #F1F4E9;

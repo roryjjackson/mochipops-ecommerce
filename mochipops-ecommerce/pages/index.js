@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Head from "next/head";
 import BootstrapCarousel from "../carousels/Bootstrap";
+import Review from '../components/Review';
 
 export default function Home({ allProducts }) {
  return (
@@ -19,7 +20,11 @@ export default function Home({ allProducts }) {
           </div>
         </main>
       <div className={styles.banner}>
-        <h2 className={styles.slogan}>Our handcrafted produce</h2>
+        <h3>WE know they're amazing</h3>
+        <h5>But have a read about what others have been saying ...</h5>
+        <div className={styles.slider}>
+           <Review></Review>           
+        </div>
       </div>
       <div className={styles.products}>
         <h2 className={styles.product_title}>Our products</h2>
