@@ -20,7 +20,7 @@ export default function Home({ allProducts }) {
           </div>
         </main>
       <div className={styles.banner}>
-        <h3>WE know they are amazing!!!!</h3>
+        <h3>WE all know they are amazing!!!!</h3>
         <h5>But have a read about what others have been saying ...</h5>
           <Review></Review>   
       </div>
