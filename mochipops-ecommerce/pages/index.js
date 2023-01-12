@@ -20,11 +20,9 @@ export default function Home({ allProducts }) {
           </div>
         </main>
       <div className={styles.banner}>
-        <h3>WE know they're amazing</h3>
+        <h3>WE know they are amazing</h3>
         <h5>But have a read about what others have been saying ...</h5>
-        <div className={styles.slider}>
-           <Review></Review>           
-        </div>
+          <Review></Review>   
       </div>
       <div className={styles.products}>
         <h2 className={styles.product_title}>Our products</h2>
